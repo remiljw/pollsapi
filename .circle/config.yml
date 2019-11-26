@@ -1,12 +1,10 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/pollsapi
     docker:
       # specify the version you desire here
       - image: circleci/python:3.6.1
-
-
-    working_directory: ~/pollsapi
 
     steps:
       - checkout
