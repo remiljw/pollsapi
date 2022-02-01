@@ -36,7 +36,7 @@ jobs:
           command: |
             . venv/bin/activate
             cd pollsapi
-            python manage.py test
+            python manage.py tes
 
       - store_artifacts:
           path: test-reports
